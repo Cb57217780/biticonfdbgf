@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<html>
+
+<head>
+
+	</div>
+
+	
+
+<style>
+	/* ESTILO BASE PARA OS ELEMENTOS*/
+
+
+	.box { 
+	width:200px; /* largura*/
+	height: 100px;/* altura*/
+	margin: 20px; /* margin*/
+
+	paddimg; 10px; /* estilo de 
+	preenchimento*/
+	background-color: lightblue;
+	border: 1px solid black; 
+
+	 }
+
+/* posição estática*/
+.static-box{
+	position: static;
+}
+/* posição estática*/
+.reative-box{
+	position: relative;
+	top: 20px; /* deslocar 20px para 
+	baixo em relação á sua posição
+	natural*/
+	left: 30px; /* deslocar 30px para a direita wm relação a sua posição */
+	background-color: lightseagreen; 
+}
+.fixed-box{
+	position: fixed;
+	top: 10px; /* fixa 10px do topo*/
+	right: 10px; /* fixa a10px da borda direita da pagina*/
+	background-color: yellow;
+}
+.abslote-box{ 
+position: absolute;
+top: 150x;
+left: 100px;
+background-color: lightblue;
+ }
+    .static-box{
+    position: static;
+    top: 0; /* elemento será fixado
+    no topo ao rolar a pagina*/ 
+     }
+
+/* adicinar altura extra prar o sticky e fixed*/
+body{
+	height: 2000px;
+
+}
+</style>
+</head>
+<body>
+		
+	<div class="box static-box">
+		posição Estatica
+	</div>
+
+	<div class="box relativa-box">
+		posição relativa (descolada)
+	</div>
+	<div class="box fixed-box">
+		posição fixa (descolada)
+	</div>
+	<div class="box absolote-box">
+		posiçao absoluta (posicionado em relação ao body)
+	</div>
+	<div class="box static-box">
+		posição Sticky (fixa no topo ao rolar)
+	</div>
+ </body>
+ </html>
